@@ -1,0 +1,276 @@
+.banner img{
+    width: 100%;
+    display: block;
+}
+
+
+.swiper-pagination{
+    color: #ffff;
+    font-size: .3rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: .1rem;
+    left: 2.86rem;
+    width: 100%;
+}
+
+.item-sec{
+    padding: .15rem .03rem;
+}
+/* display: flex;控制它的子元素的水平排列，加在父元素身上的属性 */
+.item-sec a{
+    -webkit-display: flex;
+    -ms-display: flex;
+    display: flex;
+}
+ /* 两段文字上下垂直分开 */
+.item-desc{
+     -webkit-box-orient: vertical;/*子元素排列方式：垂直 */
+    -webkit-box-pack: justify;/* 弹性盒模型*/
+    display: -webkit-box;/*子元素两端对齐 */
+    margin-top: .2rem;
+    margin-left: .1rem;
+}
+ .item-tit{
+    /* 文字超出两行出现省略号：1.弹性盒模型 2.子元素排列方式：垂直
+    3.行数：X  4.超出行数隐藏   */
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+
+    font-size: .36rem;
+    color: #1A1A1A;
+    line-height: .44rem;
+    font-weight: 400;
+    margin-bottom: .15rem;
+
+}
+
+ .item-info{
+    font-size: .22rem;
+    color: #999999;
+}
+/* 分割线域名 */
+.item-sec{
+    border-bottom: 1px solid #e6e5e5 ;
+}
+
+.gap{
+    width: 100%;
+    height: .03rem;
+    background: #e6e6e6;
+}
+/* 多个单元格一行分布 */
+.item-detail{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* 多个单元格平均一行分布 */
+.item-detail .item-imgs a{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.item-detail .item-imgs a img{
+    width: 100%;
+    display: block;
+}
+
+.item-txt-img h3{
+    font-size: .36rem;
+    font-weight: 400;
+    line-height: .44rem;
+    color: #1A1A1A;
+    margin-left: .1rem;
+    margin-bottom: .15rem;
+}
+
+.item-detail{
+    margin-left: .03rem;
+    margin-right: .03rem;
+}
+
+.item-detail .item-imgs{
+    padding-right: .05rem;
+}
+
+.cells-auto-fill img{
+    display: block;
+    width: 100%;
+}
+
+.cells-auto-fill h3,.item-info{
+    margin-left: .1rem;
+}
+
+.index-toutiaoribao{
+    position: fixed;
+    z-index: 1000;
+    background: #d43d3d;
+    height: .88rem;
+    width: 100%;
+}
+
+.main .index-toutiaoribao .abs-m .refresh-title{
+    position: fixed;
+    background: url(https://s3b.pstatp.com/growth/mobile_list/image/wap_logo@3x_581de69e.png) no-repeat center center;
+    width: 1.66rem;
+    height: .88rem;
+    background-size: 1.66rem;
+    left: 3rem;
+}
+
+.main .index-toutiaoribao .abs-l .msg-box{
+    position: absolute;
+    background: url(https://s3.pstatp.com/growth/mobile_list/image/feed_ic_message_normal@3x_f2ea949f.png) no-repeat ;
+    background-size: contain;
+    display: block;
+    width: .64rem;
+    height: .50rem;
+    top: .2rem;
+    left: .2rem;
+}
+
+.main .index-toutiaoribao .abs-l .msg-box .circle{
+    position: absolute;
+    width: .2rem;
+    height: .2rem;
+    background-color: #ffff;
+    border-radius: .1rem;
+    top: .04rem;
+    right: .1rem;
+}
+
+.main .index-toutiaoribao .abs-r .search{
+    background: url(https://s3.pstatp.com/growth/mobile_list/image/feed_ic_search_normal@3x_0f198e56.png) no-repeat center;
+    background-size: contain;
+    display: inline-block;
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+}
+
+.main .index-toutiaoribao .refreshBtn-container .refresh-btn{
+    background: url(https://s3a.pstatp.com/growth/mobile_list/image/titlebar_refresh_small@3x_96fb31e4.png) no-repeat center center;
+    background-size: .3rem;
+    height: .88rem;
+    width: .5rem;
+    position: absolute;
+    right: 2.3rem;
+}
+
+.main{
+    position: relative;
+}
+
+.top-menu-bar{
+    position: fixed;
+    z-index: 1001;
+    top: .88rem;
+    width: 100%;
+    height: .74rem;
+    background-color: #f4f5f6;
+}
+.top-menu-bar .top-menu-more{
+    float: right;
+    position: relative;
+    width: .8rem;
+    height: .72rem;
+    
+}
+
+.list-shadow{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAABXCAQAAACjUt0DAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAAJdnBBZwAAABIAAABXAK421QoAAAFiSURBVEjH1ZbbtoMgDERnKP//yaYPVSAhF077dHQtamU7k0RKAxwcPCF4ItF+tWMNsVZS91uJhNlRX7FGPMgizOrEObJSiZUUAnRkR6q0qnErm7Lhc9UDBaXUt0kN0FOaOo4SQ5BRCahOA3HT5KwTE50GZhV37VazJKYljjE2SE+sPsittC1XW/FmgNVsZJcvuhvrAbLqffNadPXLYgaLzs8wWSo6rk9FYdeBUW/x1DRswfS6ysuNlcDZ7ssTSCpIfDsZn/J8b+Omh8pjR/X8DkuWndwnINpOlukFbtvzVslAEmF+TCMaCC4fkr8oKUgVzmQ4IBojHfqFqwd28O0S6AXA7ib2P+HOTlzLcXZ3+tFz6yRObiOmGY+3k6ev5XN97Uq7FoCXkl5HTrT6tQiw2u1aY/TrZF551jyMFPZiOqW1O5zXiJx1PV/2Tw52tD8ddYc/9Zlq7qhBrlrtuhX/98cbycGBFpNaiv0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTQtMDItMjdUMTc6NDQ6NDErMDg6MDDFbrv7AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE0LTAyLTI3VDE3OjQ0OjQxKzA4OjAwtDMDRwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII=) no-repeat center right;
+    background-size: contain;
+    height: .72rem;
+    width: .2rem;
+}
+
+
+.top-menu-more .more-btn .cross{
+    position: absolute;
+    top: .1rem;
+    right: .1rem;
+    font-size: 0.4rem;
+    color: #f85959;
+}
+
+.top-menu-bar .top-menu-list{
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.top-menu-bar .top-menu-list .cur{
+    display: inline-block;
+    height: .52rem;
+    line-height: .52rem;
+    font-size: .34rem;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    color: #505050;
+}
+
+.top-menu-bar .top-menu-list .curs{
+    color: #f85959;
+}
+
+body{
+    position: relative;
+}
+
+.dow{
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: .88rem;
+    background-color: #ffff;
+    bottom: 0;
+}
+
+.dow .dow-w{
+    position: relative;
+    height: .88rem;
+    width: 100%;
+}
+
+.dow .dow-w .dow-left{
+    position: absolute;
+    background: url(https://s3.pstatp.com/growth/fe_sdk/image/banner_toutiao_icon_bce0b302.png) no-repeat ;
+    background-size: 100% 100%;
+    width: .72rem;
+    height: .72rem;
+    top: .08rem;
+    left: .3rem;
+}
+
+.dow .dow-w .dow-txt{
+    position: absolute;
+    font-size: .28rem;
+    line-height: .3rem;
+    top: .3rem;
+    left: 59px;
+    color: #222222;
+}
+
+.dow .open{
+    position: absolute;
+    width: 1.44rem;
+    height: .56rem;
+    line-height: .56rem;
+    font-weight: 500;
+    font-size: .3rem;
+    color: #ffff;
+    right: .3rem;
+    top: .2rem;
+    background-image: linear-gradient(90deg,red,#ff5050);
+    text-align: center;
+    border-radius: .28rem;
+}
+
